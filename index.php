@@ -4,7 +4,7 @@
  *
  *
  *
- *
+ *mmmmmmm
  *
  *
  */
@@ -18,7 +18,9 @@ Abstract class Applications implements IApplications, IIO{
 
 	}
 	public function configure(){
-		
-	}
 
+	}
+	public function load(){
+
+	}
 }
