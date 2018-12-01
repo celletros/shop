@@ -1,19 +1,22 @@
 <?php
-	if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
-		$uri = 'https://';
-	} else {
-		$uri = 'http://';
-	}
-	
-	
-	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/dashboard/');
+/**
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
 
+Abstract class Applications implements IApplications, IIO{
 	
-	class Applications{
-		
-			public function __constructor(){
-				
-			}
+	public function init(){
 		
 	}
+	public function execute(){
+		
+	}
+	
+	
+}
