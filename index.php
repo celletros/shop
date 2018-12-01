@@ -16,7 +16,10 @@ interface IApplications
 {
 	// code...
 }
-
+interface IApplications
+{
+	// code...
+}
 
 
 Abstract class Applications implements IApplications, IIO{
