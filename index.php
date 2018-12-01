@@ -12,6 +12,8 @@
 	
 	class Applications{
 		
-		
+			public function __constructor(){
+				
+			}
 		
 	}
