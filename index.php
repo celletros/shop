@@ -9,6 +9,16 @@
  *
  */
 
+/**
+ *
+ */
+interface IApplications
+{
+	// code...
+}
+
+
+
 Abstract class Applications implements IApplications, IIO{
 
 	public function init(){
